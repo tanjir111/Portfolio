@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&family=PT+Sans&display=swap" rel="stylesheet">
+    <title>Tanjir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="global_container">
+        <div class="home_container" id="Home">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/Assets/MTH.png" alt="logo">
+                </div>
+                <div class="menu">
+                    <div class="Home">
+                        <a href="#Home"><button>Home</button></a>
+                    </div>
+                    <div class="Home">
+                        <a href="#about_me"><button>About Me</button></a>
+                    </div>
+                    <div class="Home">
+                        <a href="#resume"><button>Resume</button></a>
+                    </div>
+                    <div class="Home">
+                        <a href="#contact_me"><button>Contact Me</button></a>
+                    </div>
+                </div>
+                <div class="more">
+                    <button class="button-30"><a href="#"></a><img src="/Assets/More.png" alt="Expand Arrow" srcset=""><span>More</span></a></button>
+                </div>
+                
+            </div>
+            <nav id="navbar" style="display: none;">
+                <div class="close-btn" onclick="closeNavbar()">X</div>
+                <div class="nav-item"  onclick="closeNavbar()"><a href="#Home">Home</a></div>
+                <div class="nav-item" onclick="closeNavbar()"><a href="#about_me">About Me</a></div>
+                <div class="nav-item" onclick="closeNavbar()"><a href="#resume">Resume</a></div>
+                <div class="nav-item" onclick="closeNavbar()"><a href="#contact_me">Contact Me</a></div>
+              </nav>
+            
+              <nav id="alt-navbar">
+                <div class="logo"><img src="/Assets/MTH.png" alt="MTH"></div>
+                <div class="menu-icon" onclick="openNavbar()"><img src="/Assets/M4.png" alt="Menu" srcset=""></div>
+              </nav>
+            <div class="home">
+                <div class="me">
+                    <div class="name">
+                        Md Tanjir Hossain
+                    </div>
+                    <div class="info">
+                        I'm a Computer Science Engineer
+                    </div>
+                    <div class="about">
+                        <a href="#about_me"><button class="button-30">About Me</button></a>
+                    </div>
+                    <div class="social">
+                        <div class="facebook">
+                            <a href="https://www.facebook.com/md.tanjir.507/"><img src="/Assets/Facebook.png" alt="Facebook"></a>
+                        </div>
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/tanjirhs/"><img src="/Assets/Instagram.png" alt="Instagram"></a>
+                        </div>
+                        <div class="linkedin">
+                            <a href="https://www.linkedin.com/in/md-tanjir-hossain-557ab7281/"><img src="/Assets/LinkedIn.png" alt="LinkedIn"></a>
+                        </div>
+                        <div class="github">
+                            <a href="https://github.com/tanjir111"><img src="/Assets/GitHub.png" alt="GitHub"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="/Assets/Tanjir.png" alt="Md Tanjir Hossain" srcset="">
+                </div>
+            </div>
+        </div>
+        <div class="about_me" id="about_me">
+            <div class="title name">About Me</div>
+            <div class="details">
+                <p>Greetings! I'm Md. Tanjir Hossain, a passionate Computer Science and Engineering student 
+                    with a keen interest in exploring the realms of technology and its intersection with 
+                    human emotions. Currently immersed in a captivating research endeavor on Multimodal 
+                    Sentiment Analysis, I'm delving deep into understanding the intricate nuances of how various 
+                    modalities contribute to the expression and interpretation of sentiments.</p>
+
+                <p>Beyond the confines of academia, I'm an avid creator, constantly engaged in crafting 
+                    innovative projects to augment my skills and enrich my CV. These projects serve as a 
+                    testament to my dedication and proficiency in applying theoretical knowledge to practical 
+                    solutions. </p>
+
+                <p>Away from the screen and textbooks, I find solace in the enchanting world of cinema, 
+                    where storytelling transcends boundaries, and in the captivating realm of literature, 
+                    where words paint vivid pictures of imagination. Moreover, I find delight in the strategic 
+                    intricacies of chess, a game that challenges my intellect and strategic acumen.</p>
+
+                <p>Driven by an insatiable curiosity and a fervent desire to make meaningful contributions to 
+                    the field of technology, I am committed to continuous learning and growth, always seeking 
+                    new avenues to expand my horizons and make a positive impact on the world around me.</p>
+            </div>
+        </div>
+        <div class="resume" id="resume">
+            <div class="title name">Resume</div>
+            <div class="heading">
+                <div class="subtitle">
+                    Education
+                </div>
+                <div class="degrees">
+                    <div class="certificate">
+                        <div class="year">
+                            2020-2024
+                        </div>
+                        <div class="degree">
+                            <div class="degree_name">Bachelor's Degree</div>
+                            <div class="department">Computer Science and Engineering</div>
+                            <div class="institution">Green University of Bangladesh</div>
+                            <div class="gpa">CGPA: 3.11</div>
+                        </div>
+                        
+                    </div>
+                    <div class="certificate">
+                        <div class="year">
+                            2018-2019
+                        </div>
+                        <div class="degree">
+                            <div class="degree_name">Heigher Secondary School Certificate</div>
+                            <div class="department">Science</div>
+                            <div class="institution">Rajarbagh Police Lines School and College</div>
+                            <div class="gpa">GPA: 3.63</div>
+                        </div>
+                    </div>
+                    <div class="certificate">
+                        <div class="year">
+                            2016-2017
+                        </div>
+                        <div class="degree">
+                            <div class="degree_name">Secondary School Certificate</div>
+                            <div class="department">Science</div>
+                            <div class="institution">Delpara High School</div>
+                            <div class="gpa">GPA:4.92 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading">
+                <div class="subtitle">Professional Skillset</div>
+                <div class="skillset">
+                    <div class="skill">
+                        <div class="box"><img src="/Assets/box.png" alt="box"></div>
+                        <div class="skill_name">HTML</div>
+                    </div>
+                    <div class="skill">
+                        <div class="box"><img src="/Assets/box.png" alt="box"></div>
+                        <div class="skill_name">CSS</div>
+                    </div>
+                    <div class="skill">
+                        <div class="box"><img src="/Assets/box.png" alt="box"></div>
+                        <div class="skill_name">JavaScript</div>
+                    </div>
+                    <div class="skill">
+                        <div class="box"><img src="/Assets/box.png" alt="box"></div>
+                        <div class="skill_name">Python</div>
+                    </div>
+                    <div class="skill">
+                        <div class="box"><img src="/Assets/box.png" alt="box"></div>
+                        <div class="skill_name">Java</div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading">
+                <div class="subtitle">Language</div>
+                <div class="skillset">
+                    <div class="skill">
+                        <div class="box"><img src="/Assets/box-2.png" alt="box"></div>
+                        <div class="skill_name">Bangla</div>
+                    </div>
+                    <div class="skill">
+                        <div class="box"><img src="/Assets/box-2.png" alt="box"></div>
+                        <div class="skill_name">English</div>
+                    </div>
+                    <div class="skill">
+                        <div class="box"><img src="/Assets/box-2.png" alt="box"></div>
+                        <div class="skill_name">Spanish</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact_me" id="contact_me">
+            <div class="title name">Contact Me</div>
+            <div class="contact_container">
+                <div class="sub_text">
+                    <p>Thank you for taking the time to explore my portfolio. If you have any inquiries, 
+                        collaboration opportunities, or just want to say hello, feel free to reach out 
+                        to me through any of the following channels:</p>
+                </div>
+                <div class="direct_contact">
+                    <div class="contact_types">
+                        <div class="subtitle">Email</div>
+                        <div class="sub_text">You can email me directly at: </div>
+                        <div class="contact"><a href="mailto:tanjirf@gmail.com">
+                            tanjirf@gmail.com</a></div>
+                    </div>
+                    <div class="contact_types">
+                        <div class="subtitle">Phone</div>
+                        <div class="sub_text">Feel free to give me a call at: </div>
+                        <div class="contact"><a href="tel:+8801640512706">+8801640512706</a></div>
+                    </div>
+                </div>
+                <div class="social_media">
+                    <div class="subtitle">
+                        Social Media
+                    </div>
+                    <div class="sub_text">Connect with me on social media:</div>
+                    <div class="mediums">
+                        <div class="social">
+                            <div class="facebook">
+                                <a href="https://www.facebook.com/md.tanjir.507/"><img src="/Assets/Facebook.png" alt="Facebook"></a>
+                            </div>
+                            <div class="instagram">
+                                <a href="https://www.instagram.com/tanjirhs/"><img src="/Assets/Instagram.png" alt="Instagram"></a>
+                            </div>
+                            <div class="linkedin">
+                                <a href="https://www.linkedin.com/in/md-tanjir-hossain-557ab7281/"><img src="/Assets/LinkedIn.png" alt="LinkedIn"></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Md Tanjir Hossain. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function openNavbar() {
+        document.getElementById("navbar").style.display = "grid";
+        document.getElementById("alt-navbar").style.display = "none";
+    }
+
+    function closeNavbar() {
+        document.getElementById("navbar").style.display = "none";
+        document.getElementById("alt-navbar").style.display = "grid";
+    }
+    
+    
+      </script>
+</body>
+</html>
